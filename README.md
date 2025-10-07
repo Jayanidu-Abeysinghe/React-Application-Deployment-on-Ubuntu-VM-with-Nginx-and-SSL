@@ -212,4 +212,4 @@ Congratulations, all simulated renewals succeeded.
 
 ### 🎉 Congratulations!
 
-Your full-stack application is now live, secure, and production-ready using Nginx, DuckDNS, and Let’s Encrypt SSL.
+Your react application is now live, secure, and production-ready using Nginx, DuckDNS, and Let’s Encrypt SSL.
