@@ -214,6 +214,9 @@ Expected output:
 Congratulations, all simulated renewals succeeded.
 ``
 
+<img src="https://github.com/Jayanidu-Abeysinghe/React-Application-Deployment-on-Ubuntu-VM-with-Nginx-and-SSL/raw/main/images/9.png" width="600" alt="SNS Config">
+
+
 ---
 
 ### 🎯 Final Results
