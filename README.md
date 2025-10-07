@@ -28,6 +28,9 @@ Verify the installation:
 node -v
 npm -v
 ```
+<img src="https://github.com/Jayanidu-Abeysinghe/React-Application-Deployment-on-Ubuntu-VM-with-Nginx-and-SSL/raw/main/images/5.png" width="400" alt="SNS Config">
+
+
 ---
 
 ## 🌐 2. Install and Configure Nginx
@@ -46,6 +49,8 @@ Check Nginx status:
 ```bash
 systemctl status nginx
 ```
+
+<img src="https://github.com/Jayanidu-Abeysinghe/React-Application-Deployment-on-Ubuntu-VM-with-Nginx-and-SSL/raw/main/images/6.png" width="900" alt="SNS Config">
 
 ---
 
@@ -84,6 +89,9 @@ Copy the React build files to Nginx’s root directory:
 sudo cp -r build/* /var/www/html/
 ```
 
+<img src="https://github.com/Jayanidu-Abeysinghe/React-Application-Deployment-on-Ubuntu-VM-with-Nginx-and-SSL/raw/main/images/7.png" width="1200" alt="SNS Config">
+
+
 Set proper permissions:
 ```bash
 sudo chown -R www-data:www-data /var/www/html
@@ -110,6 +118,9 @@ echo 'server {
     error_page 404 /index.html;
 }' | sudo tee /etc/nginx/sites-available/default > /dev/null
 ```
+
+<img src="https://github.com/Jayanidu-Abeysinghe/React-Application-Deployment-on-Ubuntu-VM-with-Nginx-and-SSL/raw/main/images/8.png" width="600" alt="SNS Config">
+
 
 Restart Nginx:
 ```bash
@@ -175,6 +186,9 @@ Certificate is saved at: /etc/letsencrypt/live/example.duckdns.org/fullchain.pem
 Key is saved at: /etc/letsencrypt/live/example.duckdns.org/privkey.pem
 ``
 
+<img src="https://github.com/Jayanidu-Abeysinghe/React-Application-Deployment-on-Ubuntu-VM-with-Nginx-and-SSL/raw/main/images/3.png" width="800" alt="SNS Config">
+
+
 ---
 
 ### ✅ Step 3: Verify HTTPS Access
@@ -209,6 +223,10 @@ Congratulations, all simulated renewals succeeded.
 ✅ Nginx serves both frontend and backend securely
 
 ✅ SSL certificate is installed and auto-renewal configured
+
+
+<img src="https://github.com/Jayanidu-Abeysinghe/React-Application-Deployment-on-Ubuntu-VM-with-Nginx-and-SSL/raw/main/images/1.jpg" width="600" alt="SNS Config">
+
 
 ### 🎉 Congratulations!
 
